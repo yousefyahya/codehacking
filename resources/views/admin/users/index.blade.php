@@ -10,6 +10,7 @@
         <thead>
         <tr>
             <th>ID</th>
+            <th>Photo</th>
             <th>Name</th>
             <th>Email</th>
             <th>Role</th>
@@ -25,6 +26,7 @@
 
                 <tr>
                     <td>{{$user->id}}</td>
+                    <td><img height="50px" width="85px" src="{{$user->photo ? $user->photo->file: 'No User Photo'}}" alt=""></td>
                     <td>{{$user->name}}</td>
                     <td>{{$user->email}}</td>
                     <td>{{$user->role->name}}</td>
