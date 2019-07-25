@@ -26,8 +26,8 @@
 
                 <tr>
                     <td>{{$user->id}}</td>
-                    <td><img height="50px" width="85px" src="{{$user->photo ? $user->photo->file: 'No User Photo'}}" alt=""></td>
-                    <td>{{$user->name}}</td>
+                    <td><a href="{{route('admin.users.edit', $user->id)}}"><img height="50px" width="85px" class="img-rounded" src="{{$user->photo ? $user->photo->file: '/images/default.png'}}"></a></td>
+                    <td><a href="{{route('admin.users.edit', $user->id)}}">{{$user->name}}</a></td>
                     <td>{{$user->email}}</td>
                     <td>{{$user->role->name}}</td>
                     <td>{{$user->is_active == 1?'Active' : 'Not Active'}}</td>
