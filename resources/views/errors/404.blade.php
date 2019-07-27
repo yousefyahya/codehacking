@@ -1,3 +1,8 @@
+@extends('layouts.app')
+
+
+@section('content')
+
 {{--<h1 style="text-align: center;">Oops!</h1>--}}
 {{--<h1 style="text-align: center;">Not Found</h1>--}}
 {{--<p style="text-align: center;">Sorry, an error has occured, Requested page not found!</p>--}}
@@ -41,3 +46,5 @@
 </div>
 </body>
 </html>
+
+@endsection
