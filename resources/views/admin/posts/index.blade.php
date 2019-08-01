@@ -3,6 +3,16 @@
 
 @section('content')
 
+    @if(Session::has('deleted_post'))
+        <p class="bg-danger">{{session('deleted_post')}}</p>
+
+    @elseif(Session::has('updated_post'))
+        <p class="bg-info">{{session('updated_post')}}</p>
+
+    @elseif(Session::has('created_post'))
+        <p class="bg-success">{{session('created_post')}}</p>
+    @endif
+
     <h1>Posts</h1>
 
     <table class="table">
@@ -23,11 +33,11 @@
             @foreach($posts as $post)
                 <tr>
                     <td>{{$post->id}}</td>
-                    <td><img height="50px" width="85px" class="img-rounded" src="{{$post->photo ? $post->photo->file: '/images/default.png'}}"></td>
-                    <td>{{$post->user->name}}</td>
+                    <td><a href="{{route('admin.posts.edit', $post->id)}}"><img height="50px" width="85px" class="img-rounded" src="{{$post->photo ? $post->photo->file: '/images/default.png'}}"></a></td>
+                    <td><a href="{{route('admin.posts.edit', $post->id)}}">{{$post->user->name}}</a></td>
                     <td>{{$post->category ? $post->category->name: 'Uncategorized'}}</td>
                     <td>{{$post->title}}</td>
-                    <td>{{$post->body}}</td>
+                    <td>{{str_limit($post->body, 30)}}</td>
                     <td>{{$post->created_at->diffForHumans()}}</td>
                     <td>{{$post->updated_at->diffForHumans()}}</td>
                 </tr>
