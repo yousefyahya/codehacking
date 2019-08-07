@@ -2,11 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c127333-41e8-439f-be35-5701aea01105" name="Default Changelist" comment="codehacking">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/media/create.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1563888622Dr. Meowalot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1563891009Dr. Froggerson.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1563964641042 field.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1563966184Dr. Meowalot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1564066878Dr. Meowalot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1564067319Dr. Meowalot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1564318225042 field.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1564318445042 field.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1564319429Dr. Froggerson.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1564572818Dr. Froggerson.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1564663929Dr. Meowalot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1564664257042 field.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1564664469042 field.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1564666837Dr. Froggerson.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/1564666848042 field.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/media/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/media/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -176,7 +191,9 @@
       <workItem from="1564663423215" duration="3585000" />
       <workItem from="1564693321858" duration="882000" />
       <workItem from="1564842229148" duration="6119000" />
-      <workItem from="1565020124993" duration="597000" />
+      <workItem from="1565020124993" duration="2675000" />
+      <workItem from="1565102808395" duration="861000" />
+      <workItem from="1565204440024" duration="4816000" />
     </task>
     <task id="LOCAL-00001" summary="codehacking">
       <created>1563826495517</created>
