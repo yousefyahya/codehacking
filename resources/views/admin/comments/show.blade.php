@@ -14,9 +14,8 @@
                 <th>Author</th>
                 <th>Email</th>
                 <th>Body</th>
-                <th>Post</th>
-                <th>Replies</th>
                 <th>Created</th>
+                <th>Post</th>
                 <th>Action</th>
             </tr>
             </thead>
@@ -29,9 +28,8 @@
                     <td>{{$comment->author}}</td>
                     <td>{{$comment->email}}</td>
                     <td>{{$comment->body}}</td>
-                    <td><a href="{{route('home.post', $comment->post->id)}}">{{$comment->post->title}}</a></td>
-                    <td><a href="{{route('admin.comment.replies.show', $comment->id)}}">View Replies</a></td>
                     <td>{{$comment->created_at->diffForHumans()}}</td>
+                    <td><a href="{{route('home.post', $comment->post->id)}}">View Post</a></td>
                     <td>
                         @if($comment->is_active == 1)
                             {!! Form::model($comment, ['method'=>'PATCH', 'action'=>['PostCommentsController@update', $comment->id]]) !!}

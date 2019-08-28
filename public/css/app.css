@@ -4,4 +4,13 @@
 .m {
   margin-left: 50px; }
 
+#nested-comment {
+  margin-top: 35px; }
+
+.comment-reply {
+  display: none; }
+
+.btn-expantion {
+  margin-left: 25px; }
+
 /*# sourceMappingURL=app.css.map */
