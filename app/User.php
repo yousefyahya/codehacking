@@ -52,4 +52,9 @@ class User extends Authenticatable
     public function categories(){
         return $this->belongsTo('App\Category');
     }
+
+    public function getGravatarAttribute(){
+        $hash = md5(strtolower(trim($this->attributes['email']))) . "?d=mm";
+        return "http://www.gravatar.com/avatar/$hash";
+    }
 }

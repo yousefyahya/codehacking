@@ -76,7 +76,7 @@
             <!-- Comment -->
             <div class="media">
                 <a class="pull-left" href="#">
-                    <img height="64" width="80" class="media-object" src="{{$comment->photo}}">
+                    <img height="64" width="80" class="media-object" src="{{Auth::user()->gravatar}}" alt="{{$comment->photo}}">
                 </a>
                 <div class="media-body">
                     <h4 class="media-heading">{{$comment->author}}
