@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c127333-41e8-439f-be35-5701aea01105" name="Default Changelist" comment="codehacking">
-      <change beforePath="$PROJECT_DIR$/.idea/codehacking.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codehacking.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -239,7 +235,18 @@
       <workItem from="1567820659622" duration="793000" />
       <workItem from="1567960380241" duration="755000" />
       <workItem from="1568158611976" duration="2982000" />
-      <workItem from="1568162718678" duration="645000" />
+      <workItem from="1568162718678" duration="2305000" />
+      <workItem from="1568165272170" duration="10000" />
+      <workItem from="1568330106745" duration="1609000" />
+      <workItem from="1568335114659" duration="734000" />
+      <workItem from="1568336461825" duration="1405000" />
+      <workItem from="1568401085362" duration="1090000" />
+      <workItem from="1568452720016" duration="766000" />
+      <workItem from="1568462480395" duration="914000" />
+      <workItem from="1568472761771" duration="1492000" />
+      <workItem from="1568518977570" duration="5410000" />
+      <workItem from="1568622053251" duration="611000" />
+      <workItem from="1568623078280" duration="3005000" />
     </task>
     <task id="LOCAL-00001" summary="codehacking">
       <created>1563826495517</created>
